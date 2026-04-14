@@ -1,0 +1,21 @@
+{
+    "name": "abdulrehman/flarum-autoactivate-user",
+    "description": "Automatically activates users without email confirmation",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^2.0.0-beta.8"
+    },
+    "autoload": {
+        "psr-4": {"abdulrehman\\flarum-autoactivate-user\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Auto Activate Users",
+            "icon": {
+                "name": "fas fa-user-check",
+                "backgroundColor": "#238c59",
+                "color": "#fff"
+            }
+        }
+    }
+}
